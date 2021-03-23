@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math Visualization</title>
+    <style>
+      body {
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      canvas {
+        border: 1px solid #181818;
+      }
+
+      a {
+        color: rgb(55, 141, 255);
+      }
+
+      p {
+        color: #fff;
+      }
+
+      input,
+      canvas {
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript> You need JavaScript to see this page. </noscript>
+
+    <a
+      href="https://www.youtube.com/watch?v=EK32jo7i5LQ"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      That's such a beautiful video
+    </a>
+    <p>Result is not matchin exactly the same (I'm fixing it)</p>
+
+    <canvas id="canvas" width="1080px" height="720px"></canvas>
+
+    <input
+      type="number"
+      name="numbers"
+      id="numbers"
+      placeholder="numbers"
+      value="60"
+      min="1"
+    />
+
+    <a
+      href="https://github.com/caiodomingues/math-visualization"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      GitHub
+    </a>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
